@@ -12,7 +12,7 @@ ExternalProject_Add(
     dep_spdlog
     GIT_REPOSITORY "https://github.com/gabime/spdlog.git"
     GIT_TAG "v1.x"
-    GIT_SHALLOW 1
+    GIT_SHALLOW 1 
     UPDATE_COMMAND ""
     PATCH_COMMAND ""
     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${DEP_INSTALL_DIR}

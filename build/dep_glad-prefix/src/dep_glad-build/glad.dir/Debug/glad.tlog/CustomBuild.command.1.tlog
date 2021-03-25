@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOCUMENTS\CG\OPENGL_EXAMPLE\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Documents/cg/opengl_example/build/dep_glad-prefix/src/dep_glad -BC:/Users/User/Documents/cg/opengl_example/build/dep_glad-prefix/src/dep_glad-build --check-stamp-file C:/Users/User/Documents/cg/opengl_example/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

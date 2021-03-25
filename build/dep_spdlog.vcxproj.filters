@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\a5fb05d43e4508e94e6c3e768b656433\dep_spdlog-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\a5fb05d43e4508e94e6c3e768b656433\dep_spdlog-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\a5fb05d43e4508e94e6c3e768b656433\dep_spdlog-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\a5fb05d43e4508e94e6c3e768b656433\dep_spdlog-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\a5fb05d43e4508e94e6c3e768b656433\dep_spdlog-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\a5fb05d43e4508e94e6c3e768b656433\dep_spdlog-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\a5fb05d43e4508e94e6c3e768b656433\dep_spdlog-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\a5fb05d43e4508e94e6c3e768b656433\dep_spdlog-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\1bc72c8b236c4606ebb5eb20ce53b1fc\dep_spdlog-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\040dd2ee80a1fd305f41ba13a3c7bcf1\dep_spdlog.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\cg\opengl_example\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\Documents\cg\opengl_example\build\CMakeFiles\dep_spdlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FBD60937-E503-3982-80A8-FBA847E19879}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
