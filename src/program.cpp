@@ -15,6 +15,7 @@ Program::~Program() {
 
 bool Program::Link(const std::vector<ShaderPtr>& shaders) {
     m_program = glCreateProgram();
+    
     for (auto& shader: shaders)
         glAttachShader(m_program, shader->Get());
     glLinkProgram(m_program);
@@ -32,4 +33,14 @@ bool Program::Link(const std::vector<ShaderPtr>& shaders) {
 
 void Program::Use() const{
     glUseProgram(m_program);
+}
+
+void Program::SetUniform(const std::string& name, int value) const {
+    auto loc = glGetUniformLocation(m_program, name.c_str());
+    glUniform1i(loc, value);
+}
+
+void Program::SetUniform(const std::string& name, const glm::mat4& value) const {
+    auto loc = glGetUniformLocation(m_program, name.c_str());
+    glUniformMatrix4fv(loc, 1, GL_FALSE, glm::value_ptr(value));
 }
